@@ -13,3 +13,12 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# IDE
+/.idea/
+**/.idea/
+
+# Build outputs / signed bundles
+*.aab
+*.apk
+**/release/
