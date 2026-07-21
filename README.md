@@ -85,3 +85,4 @@ the relevant file, bump `versionCode` and `versionName` in
 `app/build.gradle.kts`, rebuild a signed bundle, and upload it as a new
 release in the Play Console — the WebView content itself updates
 automatically with no app update needed, since it just loads the live site.
+# AWAGooglePlay
