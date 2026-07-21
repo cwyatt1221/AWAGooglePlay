@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Placeholder for Animal Wellness Action Logo -->
+    <path
+        android:fillColor="#2E4C2E"
+        android:pathData="M30,40 h48 v5 h-48 z" />
+    <path
+        android:fillColor="#2E4C2E"
+        android:pathData="M30,50 h48 v5 h-48 z" />
+    <path
+        android:fillColor="#E67E22"
+        android:pathData="M30,60 h48 v8 h-48 z" />
+</vector>

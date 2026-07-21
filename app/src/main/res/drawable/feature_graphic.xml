@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp"
+    android:height="500dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="500">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#2E4C2E"
+        android:pathData="M0,0 h1024 v500 h-1024 z" />
+
+    <!-- Center Logo Container -->
+    <!-- We'll represent the logo here using paths since we can't easily embed the other drawable in a way that exports perfectly without knowing its content -->
+    <!-- Representing "animal wellness action" in stylized form -->
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M350,200 h324 v20 h-324 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M350,240 h324 v20 h-324 z" />
+    <path
+        android:fillColor="#E67E22"
+        android:pathData="M350,280 h324 v30 h-324 z" />
+
+    <!-- Text labels (representation) -->
+    <!-- In real life, you'd use a PNG, but this provides the layout template -->
+
+</vector>
