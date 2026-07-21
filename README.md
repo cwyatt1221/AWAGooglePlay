@@ -26,9 +26,10 @@ me know and I can scope that separately.
    `app/src/main/java/org/animalwellnessaction/app/SyncWorker.kt` and edit
    `PAGES_TO_SYNC`. It currently includes the homepage, the Congressional
    Profiles page, and the Endorsements page.
-2. **Replace the app icon.** Right now `ic_launcher.xml` points at a system
-   placeholder icon. In Android Studio: right-click `res` → New → Image Asset,
-   and use AWA's logo.
+2. **Replace the app icon.** Right now `ic_launcher.xml` points at
+   `@drawable/ic_branding_foreground`. If that isn't the final AWA logo yet,
+   replace `ic_branding_foreground` with the final artwork — e.g. in Android
+   Studio: right-click `res` → New → Image Asset, and use AWA's logo.
 3. **Confirm the app name** in `app/src/main/res/values/strings.xml`
    (`app_name`).
 
@@ -85,4 +86,3 @@ the relevant file, bump `versionCode` and `versionName` in
 `app/build.gradle.kts`, rebuild a signed bundle, and upload it as a new
 release in the Play Console — the WebView content itself updates
 automatically with no app update needed, since it just loads the live site.
-# AWAGooglePlay
